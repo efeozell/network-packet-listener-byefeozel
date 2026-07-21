@@ -36,9 +36,7 @@ def get_arguments():
 
 def listen_packets(iface):
   scapy.sniff(iface=iface, store=False, prn=analyze_packets)
-#iface= Interface Ag arayuzu
-#Store= Aldıgımız paketlerı hafızaya kaydetme
-#prn= callback function -> Paketleri yollayıp işleteceğimiz callback fonksiyonu burada beliriyoruz.
+
 
 def analyze_packets(packet):
 

@@ -64,14 +64,14 @@ Type command with output option or not.
 sudo python3 [packetlistener.py](http://packetlistener.py) -i [İFACE] -o [FİLE NAME]
 ```
 
-![image.png](image%201.png)
+![image.png](image1.png)
 
-![image.png](image%202.png)
+![image.png](image2.png)
 
-![image.png](image%203.png)
+![image.png](image3.png)
 
 If you want to stop record or sniffing on network you can use CTRL + C.
 
-![image.png](image%204.png)
+![image.png](image4.png)
 
 You can find it .pcap file in the directory you are working.
