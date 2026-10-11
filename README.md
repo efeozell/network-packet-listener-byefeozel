@@ -1,4 +1,19 @@
-# Untitled
+# Network Packet Listener
+
+A small network sniffer written in Python with Scapy. It listens on a network interface and shows HTTP requests, DNS queries and TLS SNI (the server name in HTTPS handshakes). Optionally it saves the traffic to a `.pcap` file.
+
+> Use it only on networks you own or are authorized to monitor.
+
+**Quick start**
+
+```bash
+pip install scapy
+sudo python3 packetlistener.py -i <interface> -o <output.pcap>
+```
+
+The rest of this README explains how it works.
+
+---
 
 ### First we understand this: What is the Packet?
 
